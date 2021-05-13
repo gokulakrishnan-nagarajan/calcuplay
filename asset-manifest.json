@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/calcuplay/static/css/main.cebf8020.chunk.css",
-    "main.js": "/calcuplay/static/js/main.e193c2ba.chunk.js",
-    "main.js.map": "/calcuplay/static/js/main.e193c2ba.chunk.js.map",
+    "main.js": "/calcuplay/static/js/main.ce483eee.chunk.js",
+    "main.js.map": "/calcuplay/static/js/main.ce483eee.chunk.js.map",
     "runtime-main.js": "/calcuplay/static/js/runtime-main.92fb341c.js",
     "runtime-main.js.map": "/calcuplay/static/js/runtime-main.92fb341c.js.map",
-    "static/js/2.6f331666.chunk.js": "/calcuplay/static/js/2.6f331666.chunk.js",
-    "static/js/2.6f331666.chunk.js.map": "/calcuplay/static/js/2.6f331666.chunk.js.map",
+    "static/js/2.e470cea1.chunk.js": "/calcuplay/static/js/2.e470cea1.chunk.js",
+    "static/js/2.e470cea1.chunk.js.map": "/calcuplay/static/js/2.e470cea1.chunk.js.map",
     "static/js/3.9938c50c.chunk.js": "/calcuplay/static/js/3.9938c50c.chunk.js",
     "static/js/3.9938c50c.chunk.js.map": "/calcuplay/static/js/3.9938c50c.chunk.js.map",
     "index.html": "/calcuplay/index.html",
     "static/css/main.cebf8020.chunk.css.map": "/calcuplay/static/css/main.cebf8020.chunk.css.map",
-    "static/js/2.6f331666.chunk.js.LICENSE.txt": "/calcuplay/static/js/2.6f331666.chunk.js.LICENSE.txt",
+    "static/js/2.e470cea1.chunk.js.LICENSE.txt": "/calcuplay/static/js/2.e470cea1.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/calcuplay/static/media/Roboto-Thin.1711b41f.ttf",
     "static/media/font-awesome.min.css": "/calcuplay/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.92fb341c.js",
-    "static/js/2.6f331666.chunk.js",
+    "static/js/2.e470cea1.chunk.js",
     "static/css/main.cebf8020.chunk.css",
-    "static/js/main.e193c2ba.chunk.js"
+    "static/js/main.ce483eee.chunk.js"
   ]
 }
