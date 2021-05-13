@@ -1,0 +1,47 @@
+.timer {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.numbers-section {
+  margin-bottom: 40px;
+  font-size: 40px;
+
+  .mr-15 {
+    margin-right: 15px;
+  }
+
+  .result-input {
+    width: 100px;
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+  }
+  .result-input::-webkit-outer-spin-button, .result-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.op-btn {
+  padding: 7px 20px;
+  color: #FFF;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &.start {
+    background: #0D0;
+  }
+
+  &.stop {
+    background: #F60;
+  }
+
+  &.quit {
+    background: #D00;
+  }
+}

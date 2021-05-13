@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter, Switch, Route } from "react-router-dom";
+
+import LandingPage from "./components/LandingPage";
+import GamePage from "./components/GamePage";
+
+import './assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Switch>
+        <Route exact path="/">
+          <LandingPage></LandingPage>
+        </Route>
+        <Route exact path="/game/:operation">
+          <GamePage></GamePage>
+        </Route>
+      </Switch>
+    </HashRouter>
   );
 }
 
